@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeTemplateApp",
+  "name": "RootApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,13 +7,15 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.6.3",
-    "react-native": "0.57.8",
     "global": "^4.3.2",
     "native-base": "^2.8.1",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
     "react-native-action-button": "^2.8.5",
+    "react-native-elements": "^1.0.0",
     "react-native-paper": "^2.2.4",
     "react-native-swiper": "^1.5.13",
+    "react-native-vector-icons": "^6.2.0",
     "react-navigation": "^2.18.2",
     "react-navigation-material-bottom-tabs": "^0.4.0",
     "tcomb-form-native": "^0.6.20"

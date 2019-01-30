@@ -9,11 +9,16 @@ import {
 } from 'react-navigation';
 import {Icon} from 'native-base';
 import HomeScreen  from '../screens/HomeScreen';
+import StudyScreen  from '../screens/StudyScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const HomeStack = createStackNavigator({
     Home: HomeScreen,
   });
+
+const StudyStack = createStackNavigator({
+    Study: StudyScreen,
+});
 
 const SettingsStack = createStackNavigator({
     Settings: SettingsScreen,
@@ -68,6 +73,16 @@ export default AppDrawerNavigator = createDrawerNavigator({
         //     drawerLabel: NullComponent
         //     }
         // },
+ 
+        Study: {
+            screen: StudyStack,
+            navigationOptions: {
+            drawerLabel: 'Study',
+            drawerIcon:({tintColor}) => (
+                <Icon name='paper' style={{fontSize:24, color: tintColor}}/>
+            )
+            }
+        },
         Home: {
             screen: HomeStack,
             navigationOptions: {
