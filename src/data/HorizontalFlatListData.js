@@ -19,7 +19,7 @@ var horizontalFlatListData = [
         avater:"www.eample.com/avater.jpg"       
     },
     {
-        title:"General Knowledge",
+        title:"General \nKnowledge",
         avater:"www.eample.com/avater.jpg"       
     },
 ]
